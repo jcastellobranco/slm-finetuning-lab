@@ -1,0 +1,4 @@
+{"instruction":"Explain what a queue does.","response":"A queue buffers work for asynchronous processing."}
+{"instruction":"What is an API gateway?","response":"An API gateway routes requests and can enforce authentication and rate limits."}
+{"instruction":"What is observability?","response":"Observability uses logs, metrics and traces to understand a system."}
+{"instruction":"What is idempotency?","response":"An idempotent operation can be repeated without changing the result after its first successful application."}
