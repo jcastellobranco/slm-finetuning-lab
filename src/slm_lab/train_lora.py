@@ -17,7 +17,6 @@ def train(*, dataset: Path, model_name: str, output: Path, epochs: float = 1,
     records = load_jsonl(dataset)
     training, validation = split(records, seed=seed)
     # Heavy dependencies are optional and never loaded by core unit tests.
-    import torch
     from datasets import Dataset
     from peft import LoraConfig, TaskType, get_peft_model
     from transformers import (AutoModelForCausalLM, AutoTokenizer, Trainer,
